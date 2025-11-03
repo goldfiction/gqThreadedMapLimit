@@ -1,0 +1,22 @@
+{
+  "name": "gqThreadedMapLimit",
+  "version": "0.0.1",
+  "description": "A module for running map limit jobs using worker threads with better performance",
+  "main": "app.coffee",
+  "node_version": "18.20.2",
+  "dependencies": {
+    "async": "3.2.6"
+  },
+  "devDependencies": {
+    "coffeescript": "2.7.0",
+    "gqtest": ">=0.0.17",
+    "nodemon": "3.1.10"
+  },
+  "scripts": {
+    "test": "node --require coffeescript/register test/test.coffee",
+    "test:watch": "nodemon --delay 2 -q -x \"npm test\"",
+    "install:nobin": "npm install --no-bin-links --no-optional --omit=optional --ignore-scripts"
+  },
+  "author": "glidev5@gmail.com",
+  "license": "Apache-2"
+}
