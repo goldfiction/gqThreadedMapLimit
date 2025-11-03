@@ -1,5 +1,5 @@
 {
-  "name": "gqThreadedMapLimit",
+  "name": "gqthreadedmaplimit",
   "version": "0.0.1",
   "description": "A module for running map limit jobs using worker threads with better performance",
   "repository": {
