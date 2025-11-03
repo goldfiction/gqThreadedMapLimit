@@ -2,6 +2,7 @@
   "name": "gqThreadedMapLimit",
   "version": "0.0.1",
   "description": "A module for running map limit jobs using worker threads with better performance",
+  "repository": "git@github.com:goldfiction/gqThreadedMapLimit.git",
   "main": "app.coffee",
   "node_version": "18.20.2",
   "dependencies": {
